@@ -1,0 +1,2 @@
+-keep class ai.pleos.playground.afk.unity.PleosAfkUnityBridge { *; }
+-keep class ai.pleos.playground.afk.unity.service.AfkUnityMonitoringService { *; }

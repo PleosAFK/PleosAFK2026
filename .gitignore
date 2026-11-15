@@ -1,0 +1,44 @@
+# Reference sample repositories (local reference only, excluded from submission repo)
+pleos-sample-vehicle-app-main/
+pleos-sample-navi-app-main/
+pleos-sample-fusedlocation-app-main/
+
+# macOS / OS metadata
+.DS_Store
+**/.DS_Store
+
+# Android local config, caches, IDE metadata, and build outputs
+**/local.properties
+**/.gradle/
+**/.idea/
+**/.kotlin/
+**/build/
+*.iml
+*.keystore
+*.jks
+
+# Unity generated, cache, and user-specific files
+PleosAFK/[Ll]ibrary/
+PleosAFK/[Tt]emp/
+PleosAFK/[Oo]bj/
+PleosAFK/[Bb]uild/
+PleosAFK/[Bb]uilds/
+PleosAFK/[Ll]ogs/
+PleosAFK/[Uu]ser[Ss]ettings/
+PleosAFK/[Mm]emoryCaptures/
+PleosAFK/[Rr]ecordings/
+PleosAFK/.utmp/
+PleosAFK/android/
+PleosAFK/*.csproj
+PleosAFK/*.sln
+PleosAFK/*.unityproj
+PleosAFK/*.pidb
+PleosAFK/*.booproj
+PleosAFK/*.svd
+PleosAFK/*.pdb
+PleosAFK/*.mdb
+PleosAFK/*.opendb
+PleosAFK/*.VC.db
+
+# Keep prebuilt Android plugin AAR in Unity Assets
+!PleosAFK/Assets/Plugins/Android/*.aar
